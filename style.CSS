@@ -31,3 +31,7 @@ body {
   />
   <title>Flashcard</title>
 </head>
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+background-color: var( --card-back-color);   
+ }
